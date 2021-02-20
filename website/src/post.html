@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3: Responsive Design</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.js"
+        integrity="sha512-qk0XupXlge1h9I63+bC7K8850xgWnUjTgSNkfLnsqc7dWdx4031UbKjKs2cuRxsNXymkSjyzSCiryVouU74zkg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="nav">
+            <div class="logo">
+                <a href="/">
+                    <img src="images/openhouse-logo.svg" width="140" height="auto" alt="OpenHouse logo">
+                </a>
+            </div>
+            <div class="nav-items nav-items-desktop">
+                <ul>
+                    <li><a href="/page.html">About</a></li>
+                    <li><a href="/page.html">Team</a></li>
+                    <li><a href="/post.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="nav-items nav-items-mobile">
+                <img src="images/menu.svg" width="28" height="20" alt="Menu icon">
+            </div>
+        </nav>
+        <div class="content">
+            <div class="bannerContainer">
+                <img alt="banner" src="/images/blog-post-photo.jpg" />
+            </div>
+            <div class="title">
+                <h1>Super Awesome Blog Title Here</h1>
+            </div>
+            <div class="description">
+                This is a brief introduction that contains keywords that may appear during a google search
+                to enhance SEO and gives the reader a general idea of what the article is about.
+            </div>
+            <div class="byline">
+                <span class="author">Noah Varghese</span>
+                <span class="date">February 20, 2020</span>
+            </div>
+            <div class="share">
+                <a href="#"><img src="images/instagram.svg" width="24" height="auto" alt="Instagram icon"></a>
+                <a href="#"><img src="images/facebook.svg" width="24" height="auto" alt="Facebook icon"></a>
+                <a href="#"><img src="images/twitter.svg" width="24" height="auto" alt="Twitter icon"></a>
+            </div>
+            <div class="body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis mi velit, vitae
+                    fermentum
+                    neque malesuada sed. Aenean pellentesque ut eros eu hendrerit. Donec sodales velit metus, a porta
+                    nisl
+                    congue quis. Phasellus porttitor, erat in bibendum blandit, leo est blandit augue, vitae lacinia
+                    ante
+                    urna vel metus. Donec condimentum purus a molestie pellentesque. Cras sodales arcu ligula, id
+                    ultrices
+                    sapien posuere a. Ut convallis arcu mauris, sed laoreet risus cursus a. Vestibulum ante ipsum primis
+                    in
+                    faucibus orci luctus et ultrices posuere cubilia curae; Cras vulputate, nulla at rutrum consequat,
+                    metus
+                    odio tincidunt odio, in placerat turpis risus vitae nisl. Nulla bibendum est vel arcu lacinia
+                    sodales.
+                    Nam eget neque vitae dolor auctor tristique. Mauris faucibus sem vel nisl egestas laoreet. Praesent
+                    blandit justo eros, nec fringilla velit lacinia ut. Duis fringilla dui a viverra tempus. Suspendisse
+                    facilisis risus id odio semper efficitur eu id nisi. Ut turpis ligula, condimentum et elementum vel,
+                    molestie sit amet neque.
+                </p>
+                <p>
+
+                    Suspendisse scelerisque condimentum nibh sit amet auctor. In et nisl leo. Cras at iaculis nulla, non
+                    lobortis ex. Donec gravida augue ex, et maximus est iaculis egestas. Nulla molestie magna ac neque
+                    tincidunt, in ullamcorper erat pharetra. Integer scelerisque eget ipsum nec condimentum. Ut ut
+                    condimentum massa. Mauris id fermentum enim. Donec nec nisl gravida, sodales nisi sagittis, cursus
+                    tellus. Quisque mattis ut risus sit amet imperdiet. Aliquam est purus, pretium a dui vestibulum,
+                    sodales
+                    scelerisque risus. Donec tempor, tellus eu pulvinar gravida, sapien dolor semper orci, et blandit
+                    augue
+                    elit sed nunc. Donec at accumsan diam. Donec sollicitudin enim imperdiet massa semper ultrices.
+                    Morbi
+                    consectetur nulla maximus congue luctus.
+                </p>
+                <p>
+                    Integer non nibh ac risus dapibus molestie in in nibh. Quisque at dui in metus aliquet laoreet. Ut
+                    ligula magna, venenatis non euismod accumsan, volutpat ac tellus. Vivamus dignissim quis nisi non
+                    interdum. Proin feugiat erat in sapien efficitur, vel gravida lectus iaculis. Curabitur sodales
+                    lacus et
+                    justo imperdiet pharetra ut vel sapien. Integer mollis sem et elit tincidunt imperdiet. Ut id
+                    malesuada
+                    ex, eget viverra elit. Mauris scelerisque augue non nunc malesuada porttitor. Phasellus tincidunt
+                    consectetur leo eu viverra. Vivamus faucibus varius leo ac luctus. Sed vitae maximus erat. Nullam
+                    posuere metus diam, eu hendrerit diam scelerisque vel. Duis dignissim elit nec augue pretium
+                    placerat.
+                    Proin aliquet tellus dui, eget tincidunt nunc convallis vel.
+                </p>
+                <p>
+                    Phasellus in sapien tempus, dignissim elit vitae, rhoncus arcu. Vivamus vel odio gravida, dictum
+                    nunc
+                    et, mattis sem. Donec ut fringilla eros, ultrices pretium erat. Vestibulum ante ipsum primis in
+                    faucibus
+                    orci luctus et ultrices posuere cubilia curae; Nam interdum lectus id mi hendrerit laoreet. Quisque
+                    semper tempus nisl, sit amet pretium elit mollis vitae. Nullam est ante, luctus vel volutpat non,
+                    tincidunt a ipsum. Duis pellentesque rhoncus nibh, quis finibus nisl condimentum vehicula. Nam
+                    fermentum
+                    elementum magna non laoreet. In hendrerit enim tortor, vitae sagittis felis pretium et. Duis euismod
+                    sagittis eros quis sagittis. Praesent magna mi, mattis ut lacinia quis, sagittis vitae mi. Vivamus
+                    sed
+                    lacinia est, eget pellentesque metus. Aenean orci mi, tincidunt pharetra arcu vel, lobortis congue
+                    sapien.
+                </p>
+                <p>
+                    Sed egestas urna et massa vehicula, et vulputate odio efficitur. Nam nec justo nec lorem malesuada
+                    vestibulum. Nulla in turpis tincidunt, rhoncus libero sed, fermentum ligula. Duis eget felis
+                    feugiat,
+                    tristique sem quis, sagittis lorem. Cras vel ex at nibh viverra vestibulum a ac libero. Pellentesque
+                    sed
+                    ipsum at neque finibus rutrum vitae et metus. Donec feugiat congue nisi in congue. Praesent cursus
+                    finibus eros nec vehicula. Nam posuere hendrerit malesuada. Vivamus aliquam viverra urna, vitae
+                    efficitur justo vestibulum sed. Quisque luctus odio vel nibh commodo, id varius est posuere.
+                    Curabitur
+                    mattis nulla in augue gravida eleifend. Quisque et velit sapien.
+                </p>
+            </div>
+        </div>
+        <footer>
+            <div class="address">
+                <img src="images/openhouse-logo.svg" width="140" height="auto" alt="OpenHouse logo">
+                <div>
+                    123 Main Street,<br>Hamilton, Ontario<br>L9A 2W6
+                </div>
+            </div>
+            <div class="navigation">
+                <nav>
+                    <a href="/page.html">About</a>
+                    <a href="/page.html">Team</a>
+                    <a href="/post.html">Blog</a>
+                </nav>
+                <div class="social">
+                    <a href="#"><img src="images/instagram.svg" width="24" height="auto" alt="Instagram icon"></a>
+                    <a href="#"><img src="images/facebook.svg" width="24" height="auto" alt="Facebook icon"></a>
+                    <a href="#"><img src="images/twitter.svg" width="24" height="auto" alt="Twitter icon"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
+
+<body>
